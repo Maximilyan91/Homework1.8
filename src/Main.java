@@ -15,5 +15,11 @@ public class Main {
         var workingHours = 8;
         var numberOfStaff = totalWorkHours / workingHours;
         System.out.println("Всего работников в компании - " + numberOfStaff + " человек");
+
+        var numberOfStaff2 = numberOfStaff + 94;
+        var totalWorkHours2 = numberOfStaff2 * 8;
+        System.out.println("Если в компании работает " + numberOfStaff2 + " человек(а), то всего " + totalWorkHours2 + " часов работы может быть поделено между сотрудниками");
+
+
     }
 }
