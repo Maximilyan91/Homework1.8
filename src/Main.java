@@ -9,5 +9,11 @@ public class Main {
         System.out.println("Разница веса двух бойцов: " + differenceWeight + "кг!");
         var differenceWeight2 = weightFighter2 % weightFighter1;
         System.out.println("Разница веса двух бойцов: " + differenceWeight2 + "кг!");
+
+
+        var totalWorkHours = 640;
+        var workingHours = 8;
+        var numberOfStaff = totalWorkHours / workingHours;
+        System.out.println("Всего работников в компании - " + numberOfStaff + " человек");
     }
 }
